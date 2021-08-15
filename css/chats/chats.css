@@ -1,0 +1,52 @@
+.small__chat{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.small__chat__circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:white;
+  background-color: tomato;
+  height:20px;
+  width:20px;
+  border-radius:10px;
+  font-size:12px;
+}
+
+.small__chat__time{
+  margin-bottom:5px;
+  font-size:12px;
+  color:rgba(0,0,0,0.5);
+}
+
+.small__chat__font{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color:black;
+}
+
+.small__chat__font__big{
+  font-size:15px;
+  font-weight: 400;
+  margin-bottom:7px;
+}
+
+.small__chat__font__small{
+  font-size:12px;
+  color: rgba(0,0,0,0.5);
+}
+
+.chats__left{
+  margin-left:10px;
+}
+
+.goto__chatroom{
+  text-decoration: none;
+}
