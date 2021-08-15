@@ -1,0 +1,30 @@
+.login-page__form{
+  display:flex;
+  flex-direction: column;
+}
+
+input {
+  border : none;
+  margin:15px;
+}
+
+input[type="submit"]{
+  margin:5px;
+  padding:10px 0px;
+  cursor: pointer;
+}
+
+.login-page__form__font{
+  text-align: center;
+  font-size:12px;
+}
+
+/* <form action="" class="login-page__form">
+      <input type="text" placeholder="Email or phone number">
+      <input type="password" placeholder="Password">
+      <input type="submit" value="Log In">
+      <input type="submit" value="Sign Up">
+      <div class="login-page__form__font">
+        Find Kakao Account or Password
+      </div>
+    </form> */

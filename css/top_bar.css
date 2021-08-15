@@ -1,0 +1,45 @@
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:5px;
+}
+
+.top-bar__left{
+  display: flex;
+}
+
+.top-bar__font{
+  font-size:15px;
+  margin:0px 5px;
+}
+
+.top-bar__right{
+  display:flex;
+}
+
+.fa-bolt{
+  margin:0px 5px;
+}
+
+.top-bar__mid{
+  font-weight: 600;
+}
+
+/*<div class="login-page">
+    <div class="top-bar">
+      <div class="top-bar__left">
+        <div class="top-bar__left__font">
+          No Service
+        </div>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="top-bar__mid">
+
+      </div>
+
+      <div class="top-bar__right">
+        
+      </div>
+    </div>
+  </div>*/

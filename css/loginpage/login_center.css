@@ -1,0 +1,26 @@
+.login-page__center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-page__center__big-font{
+  font-size:20px;
+  margin-top:50px;
+  margin-bottom:30px;
+}
+.login-page__center__small-font{
+  text-align: center;
+  color:rgba(0,0,0,0.5);
+  margin-bottom:40px;
+}
+
+
+/* <div class="login-page__center">
+      <div class="login-page__center__big-font">
+        Welcome to KakaoTalk  
+      </div>
+      <div class="login-page__center__small-font">
+        If you have a Kakao Account, <br> log in with your email or phone number.
+      </div>
+    </div> */

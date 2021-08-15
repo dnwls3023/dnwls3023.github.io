@@ -1,0 +1,22 @@
+.btm{
+  border-top:1px solid rgba(0,0,0,0.2);
+  background-color:gainsboro;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  box-sizing: border-box;
+  padding:20px 40px;
+}
+
+.btm__icons{
+  font-size:25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* <div class="btm">
+      <i class="fas fa-user"></i>
+      <i class="far fa-comment"></i>
+      <i class="fas fa-search"></i>
+      <i class="fas fa-ellipsis-h"></i>
+    </div> */
