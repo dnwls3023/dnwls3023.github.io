@@ -1,0 +1,50 @@
+.display{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 15px;
+}
+
+.display__setter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px;
+}
+
+.display__icon{
+  margin:15px 0px;
+  font-size:25px;
+}
+
+.display__font{
+  text-align: center;
+  font-size:13px;
+  margin-bottom:7px;
+}
+
+.add__id{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width:25px;
+  height:25px;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius:50%;
+  font-size:15px;
+}
+
+/* <!-- 디스플레이 바 !-->
+  <div class="display">
+    <div class="display__setter">
+      <div class="display__icon">
+        <i class="fas fa-qrcode"></i>
+      </div>
+      <div class="display__font">
+        QR Code
+      </div>
+    </div>
+  </div> */

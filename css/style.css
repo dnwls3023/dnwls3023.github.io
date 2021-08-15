@@ -6,6 +6,8 @@
 @import "./friends/friends_icon.css";
 @import "btm.css";
 @import "./chats/chats.css";
+@import "display.css";
+@import "./find/find.css";
 
 .bold{
   font-weight: 600;

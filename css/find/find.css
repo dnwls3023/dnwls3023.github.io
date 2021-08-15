@@ -1,0 +1,127 @@
+.recFri{
+  color:rgba(0,0,0,0.5);
+  margin-left:15px;
+  margin-top:15px;
+  font-size:13px;
+  font-weight:600;
+}
+
+.nothave{
+  color:rgba(0,0,0,0.5);
+  margin:50px 30px;
+  text-align: center;
+  font-size:14px;
+  font-weight:500;
+}
+
+.find__end{
+  display: flex;
+  justify-content: space-between;
+  margin:10px 15px;
+}
+
+.find__end__left{
+  color:rgba(0,0,0,0.7);
+  font-size:13px;
+}
+
+.find__end__right{
+  color:rgba(0,0,0,0.5);
+  font-size:13px;
+  display: flex;
+}
+
+.find__end__right__font{
+  margin-right:5px;
+}
+
+.heart__cnt span{
+  margin-left:3px;
+}
+
+.find__title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 25px;
+}
+
+.find__title__text img{
+  height:20px;
+  width:20px;
+  border-radius:50%;
+}
+
+.find__title__btm{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.find__title__text__active{
+  color:pink;
+}
+
+.heart__cnt{
+  position: absolute;
+  background-color: pink;
+  color:deeppink;
+  border-radius:10px;
+  bottom:8px;
+  right:5px;
+  font-size:12px;
+  padding:5px;
+  display:flex;
+  align-items: center;
+}
+
+.heart__cnt span{
+  margin-left:5px;
+}
+
+.find__title__right{
+  position: relative;
+}
+
+.find__title__right img{
+  height:80px;
+  width:80px;
+  border-radius:10px;
+  border:2px solid black;
+}
+
+.find__title__text__main-hashtag{
+  font-weight:600;
+  margin:5px 0px;
+}
+
+.find__title__text__sub-hashtag{
+  font-size:16px;
+  margin-bottom:5px;
+  color:rgba(0,0,0,0.5);
+}
+
+.find__title__text__members{
+  font-size:15px;
+  margin: 0px 3px;
+  color:rgba(0,0,0,0.5);
+}
+
+
+/* find__title__right가 부모 => relative
+        heart__cnt 가 자식 => absolute */
+
+
+/* <div class="find__end">
+    <div class="find__end__left">
+      Open Chat
+    </div>
+    <div class="find__end__right">
+      <div class="find__end__right__font">
+        Go to Openchat Home
+      </div>
+      <div class="find__end__right__arrow">
+        <i class="fas fa-chevron-right"></i>
+      </div>
+    </div>
+  </div> */
