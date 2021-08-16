@@ -13,6 +13,9 @@
 .friends-bar__icon{
   font-size: 20px;
 }
+.friends-bar__icon a{
+  color: black;
+}
 .fa-music{
   margin:0px 10px;
 }
