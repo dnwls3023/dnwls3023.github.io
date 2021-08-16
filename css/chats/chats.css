@@ -5,6 +5,11 @@
   align-items: flex-end;
 }
 
+.small__chat i {
+  font-size: 25px;
+  color: rgba(0,0,0,0.9);
+}
+
 .small__chat__circle{
   display: flex;
   justify-content: center;
@@ -34,7 +39,7 @@
 
 .small__chat__font__big{
   font-size:15px;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom:7px;
 }
 
@@ -50,3 +55,8 @@
 .goto__chatroom{
   text-decoration: none;
 }
+
+.small__chat__font__small i{
+  color: orangered;
+}
+

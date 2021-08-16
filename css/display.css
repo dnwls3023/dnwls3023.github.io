@@ -1,6 +1,6 @@
 .display{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   margin: 15px;
 }
@@ -35,6 +35,19 @@
   border: 2px solid black;
   border-radius:50%;
   font-size:15px;
+}
+
+.display__setter img{
+  height:40px;
+  width:40px;
+  margin-bottom:5px;
+  border-radius:10px;
+}
+
+h4{
+  color:rgba(0,0,0,0.9);
+  margin-left:15px;
+  margin-top:15px;
 }
 
 /* <!-- 디스플레이 바 !-->
