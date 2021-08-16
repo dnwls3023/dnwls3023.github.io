@@ -9,7 +9,7 @@
 @import "display.css";
 @import "./find/find.css";
 @import "./settings/settings_topbar.css";
-
+@import "./chats/chat_room.css";
 
 .bold{
   font-weight: 600;

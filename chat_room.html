@@ -8,7 +8,7 @@
   <!-- css 파일 -->
   <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="chat_room">
   <!-- 최상단 바 !-->
   <div class="top-bar">
     <div class="top-bar__left">
@@ -32,28 +32,44 @@
   </div>
   <!-- 최상단 바 !-->
 
-  
-
-
-
-  <!-- 아래 부분 !-->
-  <div class="btm">
-    <div class="btm__icons">
-      <a href="friends.html" class="btm__link">
-        <i class="fas fa-user"></i>
-      </a>
-      <a href="chats.html" class="btm__link">
-        <i class="far fa-comment"></i>
-      </a>
-      <a href="find.html" class="btm__link">
-        <i class="fas fa-search"></i>
-      </a>
-      <a href="more.html" class="btm__link">
-        <i class="fas fa-ellipsis-h"></i>
-      </a>
+  <!-- settings 상단 부분 !-->
+  <div class="settings__top-bar">
+    <a href="chats.html">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    
+    <p>Woojin</p>
+    <div class="settings__top-bar__right">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-bars"></i>
     </div>
-  </div> 
-  <!-- 아래 부분 !-->
+    
+  </div>
+  <!-- settings 상단 부분 !-->
+
+  <div class="message__date">
+    <p>Tuesday, June 30, 2020</p>
+  </div>
+
+  <div class="message__receive">
+    <img src="/img/korea_flag.png">
+    <div class="message__flex">
+      <p>Woojin Han</p>
+      <div class="message__receive__setter">
+        <div class="message__receive__msg">
+          <p>Hi!</p>
+        </div>
+        <div class="message__receive__time">
+          <p>21:27</p>  
+        </div>
+        
+      </div>
+    </div>
+    
+    
+  </div>
+
+  
   <!-- font awesome !-->
   <script
       src="https://kit.fontawesome.com/6478f529f2.js"

@@ -38,3 +38,14 @@
   justify-content: center;
   align-items: center;
 }
+
+.settings__top-bar a{
+  color:black;
+}
+.settings__top-bar p{
+  font-weight:600;
+}
+
+.message__receive__time{
+  font-size:10px;
+}
