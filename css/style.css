@@ -27,6 +27,7 @@
   font-size: 132px;
   animation: first 0.3s ease-in-out forwards;
   animation-delay: 0.3s;
+  z-index: 99;
 }
 
 @keyframes first{
@@ -40,14 +41,20 @@
 }
 
 .no-mobile {
-    position: absolute;
-    z-index: 99;
-    height: 100vh;
-    background-color: yellow;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    top: 0;
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: yellow;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (max-width: 645px){
+  .no-mobile {
+      display: none;
+  }
 }
