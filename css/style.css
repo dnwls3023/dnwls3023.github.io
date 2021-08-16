@@ -8,6 +8,8 @@
 @import "./chats/chats.css";
 @import "display.css";
 @import "./find/find.css";
+@import "./settings/settings_topbar.css";
+
 
 .bold{
   font-weight: 600;

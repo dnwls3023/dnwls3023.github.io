@@ -1,0 +1,40 @@
+.settings__top-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:10px 20px;
+  font-size:20px;
+}
+
+.settings__top-bar p{
+  font-weight:500;
+}
+
+.settings__list-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin:15px;
+}
+
+.settings__list-bar .line{
+  margin:10px 0px;
+}
+
+.settings__list-bar__setter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__list-bar__setter i{
+  margin : 5px;
+}
+
+.settings__list-bar__setter__right,
+.settings__list-bar__setter__left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
