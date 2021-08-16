@@ -3,12 +3,12 @@
   flex-direction: column;
 }
 
-input {
+.login-page__form input {
   border : none;
   margin:15px;
 }
 
-input[type="submit"]{
+.login-page__form input[type="submit"]{
   margin:5px;
   padding:10px 0px;
   cursor: pointer;
