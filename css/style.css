@@ -14,3 +14,40 @@
 .bold{
   font-weight: 600;
 }
+
+.first__screen{
+  background-color: yellow;
+  position: absolute;
+  height: 150vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: first 0.3s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes first{
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.no-mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: yellow;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+}

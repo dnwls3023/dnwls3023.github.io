@@ -16,6 +16,46 @@
 
 .btm__link{
   color:black;
+  text-decoration: none;
+}
+
+.btm__link__pos{
+  position: relative;
+}
+
+.btm__link .small__chat__circle{
+  position: absolute;
+  left:13px;
+  bottom:15px;
+  animation: rot 2s ease-in-out infinite;
+}
+
+.btm__link{
+  transform: translateY(50px);
+    opacity: 0;
+    animation: upBtn 0.3s ease-in-out forwards;
+}
+
+@keyframes rot{
+  0%{
+    transform: none;
+  }
+  50%{
+    transform:translateY(-5px) rotateY(360deg); 
+  }
+  100%{
+    transform: none;
+  }
+}
+
+@keyframes upBtn{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* <div class="btm">

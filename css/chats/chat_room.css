@@ -52,6 +52,7 @@
   text-align: center;
   margin-left:5px;
   margin-top:5px;
+  border-top-left-radius: 0px;
 }
 
 .msg__send{
@@ -68,6 +69,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top-right-radius: 0px;
 }
 
 .msg__send__time{
@@ -109,6 +111,14 @@
   position: absolute;
 }
 
+.chat-room__uparrow i:first-child{
+  font-size:20px;
+  right:40px;
+  top:10px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 .chat-room__uparrow i:nth-child(2){
   display: flex;
   justify-content: center;
@@ -118,20 +128,37 @@
   height:30px;
   background-color:yellow;
   border-radius:50%;
-  right:35px;
-  top:7px;
+  right:4px;
+  top:4px;
+  cursor: pointer;
 }
 
 .chat-room__uparrow input{
   border-radius:10px;
   border: 1px solid gray;
   padding:10px 5px;
+  width:100%;
 }
 
 .chat-room__btm__right{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.msg__animation{
+  animation: upper 0.5s ease-in-out;
+}
+
+@keyframes upper{
+  0%{
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100%{
+    transform: none;
+    opacity: 1;
+  }
 }
 /*
 .msg__send__setter p{
